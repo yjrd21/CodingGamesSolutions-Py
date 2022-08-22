@@ -4,7 +4,7 @@ w, h = [int(i) for i in input().split()] #w- width of building, h-height of buil
 n = int(input())  # maximum number of turns before game over. This info is quite irrelavent to my code but wtv 
 x, y = [int(i) for i in input().split()] #x and y are batman's initial coordinates
 
-# Binary search concept. First step is to setup play area
+# Binary search concept. First step is to setup search area
 minx=miny = 0
 maxx = w
 maxy = h
